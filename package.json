@@ -15,5 +15,31 @@
   "bugs": {
     "url": "https://github.com/Pauline122112/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/Pauline122112/My-Portfolio#readme"
+  "homepage": "https://github.com/Pauline122112/My-Portfolio#readme",
+  "dependencies": {
+  
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2",
+    "nodemon": "^1.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-test-renderer": "^15.5.4",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.4.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "brunch": "^2.10.9",
+    "cssnano-brunch": "^1.1.8",
+    "javascript-brunch": "^1.8.0",
+    "sass-brunch": "^1.9.2",
+    "uglify-js-brunch": "^1.7.8"
+  },
+  "keywords": []
 }
