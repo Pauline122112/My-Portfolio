@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "A resume of my work experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pauline122112/My-Portfolio.git"
+  },
+  "author": "Pauline Stokes-Calvert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pauline122112/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Pauline122112/My-Portfolio#readme"
+}
