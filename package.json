@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/Pauline122112/My-Portfolio#readme",
   "dependencies": {
-  
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "jest": "^19.0.2",
     "jest-cli": "^19.0.2",
     "nodemon": "^1.11.0",
     "react": "^15.5.4",
@@ -38,6 +36,7 @@
     "brunch": "^2.10.9",
     "cssnano-brunch": "^1.1.8",
     "javascript-brunch": "^1.8.0",
+    "jest": "^19.0.2",
     "sass-brunch": "^1.9.2",
     "uglify-js-brunch": "^1.7.8"
   },
