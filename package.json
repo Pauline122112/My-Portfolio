@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "A resume of my work experience",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "nodemon --watch server server/index & webpack --watch",
     "test": "jest",
