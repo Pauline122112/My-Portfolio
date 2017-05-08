@@ -8,18 +8,15 @@
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pauline122112/My-Portfolio.git"
   },
   "author": "Pauline Stokes-Calvert",
   "license": "ISC",
-
   "bugs": {
     "url": "https://github.com/Pauline122112/My-Portfolio/issues"
   },
-
   "homepage": "https://github.com/Pauline122112/My-Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -29,7 +26,6 @@
     "react-redux": "^5.0.4",
     "react-router-dom": "^4.1.1"
   },
-
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-jest": "^19.0.0",
@@ -49,18 +45,17 @@
     "redux-devtools": "^3.4.0",
     "sass-brunch": "^1.9.2",
     "uglify-js-brunch": "^1.7.8",
-    "webpack": "^2.5.0",
+    "webpack": "^2.1.0-beta.22",
     "webpack-dev-server": "^2.4.5"
   },
-
   "keywords": [
     "react",
     "redux"
   ],
-
   "babel": {
-  "presets": [
-    "es2015",
-    "react"
-  ]
-},
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
