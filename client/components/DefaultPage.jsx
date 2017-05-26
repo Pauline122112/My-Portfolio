@@ -5,6 +5,9 @@ const DefaultPage = () => (
 
   <div className='container'>
    <h1>Paulines Portfolio</h1>
+   <p> Graduated from Enspiral Dev Academy (Wellington, New Zealand) as a junior web developer(2017)</p>
+   <p> Qualified Graphic Designer specialising in Logo Design</p>
+   <p> Please feel free to take a tour of my awesome Online Portfolio</p>
 
   <div className='AboutMe'>
      <Link to='/AboutMe'>
