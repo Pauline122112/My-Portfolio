@@ -9,7 +9,22 @@ const WebDesign = () => (
      </Link>
 
   </div>
-  <div className="post clearfix">
+  
+  render() {
+
+    return (
+
+      	<div className="posts">
+
+  			<div className="post banner">
+			    <h2 className="post-title">Nau Mai, Haere Mai
+          </h2>
+          <p> A place to find unique and kiwi things</p>
+    			    <a href="#" onClick={this.eventToggleSidebar}> Find out More</a>
+
+			</div>
+
+		  	<div className="post clearfix">
 
 				<h2>Web Development Technical Skills:</h2>
 
@@ -93,6 +108,24 @@ const WebDesign = () => (
 						<li><em><b></b>Debugging</em></li>
 					</ul>
 				</div>
+
+  			</div>
+
+
+  			<div className="post clearfix">
+
+				<h2>Web Development Experience:</h2>
+
+
+			</div>
+
+			<Banner />
+
+  		</div>
+
+    );
+  }
+}
 
   			</div>
 )
