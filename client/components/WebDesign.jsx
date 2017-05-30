@@ -121,13 +121,13 @@ const WebDesign = () => (
   //
 	// 		<Banner />
 
-  		</div>
+//   		</div>
+//
+//     );
+//   }
+// }
 
-    );
-  }
-}
-
-  			</div>
+  			// </div>
 )
 
 export default WebDesign
