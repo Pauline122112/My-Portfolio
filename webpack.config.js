@@ -18,6 +18,7 @@ module.exports = {
                 loader: "sass-loader" // compiles Sass to CSS
             }]
         }]
+    }
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
