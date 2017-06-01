@@ -14,3 +14,4 @@ module.exports = {
   },
   devtool: 'source-map'
 }
+//errors on this page, may have to go back through the log
