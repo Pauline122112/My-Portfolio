@@ -6,11 +6,11 @@ module.exports = {
   },
   module: {
     loaders: [
-      { loader: 'babel-loader', test: /\.jsx?$/, exclude: 'node_modules' }
+
     ]
     devtool: "source-map", // any "source-map"-like devtool is possible
     module: {
-        rules: [{
+        loaders: [{
             test: /\.scss$/,
             use: [{
                 loader: "style-loader"
@@ -22,10 +22,11 @@ module.exports = {
                 loader: "sass-loader", options: {
                     sourceMap: true
                 }
-            }]
+            }
+          { loader: 'babel-loader', test: /\.jsx?$/, exclude: 'node_modules' }]
         }]
     }
-  }  
+  }
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
