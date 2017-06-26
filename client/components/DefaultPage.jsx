@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const DefaultPage = () => (
 
   <div className='container'>
-   <h1>Paulines Portfolio</h1>
+   <h1>Introduction</h1>
    <p> Page is still work in progress</p>
    <p> Graduated from Enspiral Dev Academy (Wellington, New Zealand) as a junior web developer(2017)</p>
    <p> Qualified Graphic Designer specialising in Logo Design</p>
