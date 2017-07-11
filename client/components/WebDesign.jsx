@@ -5,6 +5,7 @@ const WebDesign = () => (
   <div className='container'>
    <h1>Web Design</h1>
    <p>Page is still work in progress</p>
+   <p> For more information please refer to my cv</p>
      <Link to='/'>
            <img src='' alt='Home' />
      </Link>
