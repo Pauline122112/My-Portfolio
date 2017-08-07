@@ -27,3 +27,6 @@ p {
   text-align: center;
   text-decoration-style: wavy;
 }
+body {
+    background-color: lightblue;
+}
