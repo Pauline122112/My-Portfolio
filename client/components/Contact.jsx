@@ -16,7 +16,13 @@ const Contact = () => (
            <option value="canada">Canada</option>
            <option value="usa">USA</option>
          </select>
+         <label for="subject">Subject</label>
+           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
+           <input type="submit" value="Submit">
+
+         </form>
+         
      <Link to='/'>
            <img src='' alt='Home' />
      </Link>
