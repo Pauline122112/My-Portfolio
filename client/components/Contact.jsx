@@ -3,26 +3,22 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => (
   <div className='container'>
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  	<div class="row">
+  		<label for="name">Your name:</label><br />
+  		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="email">Your email:</label><br />
+  		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="message">Your message:</label><br />
+  		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  	</div>
+  	<input id="submit_button" type="submit" value="Send email" />
+  </form>						
 
-         <label for="lname">Last Name</label>
-         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-         <label for="country">Country</label>
-         <select id="country" name="country">
-           <option value="australia">Australia</option>
-           <option value="canada">Canada</option>
-           <option value="usa">USA</option>
-         </select>
-         <label for="subject">Subject</label>
-           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-           <input type="submit" value="Submit">
-
-         </form>
-         
      <Link to='/'>
            <img src='' alt='Home' />
      </Link>
