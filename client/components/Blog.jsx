@@ -9,6 +9,8 @@ const Blog = () => (
    <p>Steve Jobs</p> <br>
    </br>
    <p> Get your latest on what's going on in Pauline's world</p>
+
+<p> Link to my online portfolio as well</p>
      <Link to='/'>
            <img src='' alt='Home' />
      </Link>
